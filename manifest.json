@@ -1,0 +1,17 @@
+{
+    "name": "Test Extension",
+    "description" : "Test Level Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "web_accessible_resources": [
+        "data.json"
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {}
+  }
